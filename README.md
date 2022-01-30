@@ -59,9 +59,9 @@ I used tensorflow
 ![Resources/04_Model.png](Resources/04_Model.png) 
 
 - Were you able to achieve the target model performance?
-    No, unfortunately I was unable to find the best model that was at 75 Percent or higher. The closest I was able to get was with the last optimized model (Optimized4)
+    - No, unfortunately I was unable to find the best model that was at 75 Percent or higher. The closest I was able to get was with the last optimized model (Optimized4)
 - What steps did you take to try and increase model performance?
-
+See the table for details on changes and what the result was. 
 | Model         	| Loss   	| Accuracy 	| Changes                                                                                                                            	|
 |---------------	|--------	|----------	|------------------------------------------------------------------------------------------------------------------------------------	|
 | Original (D2) 	| 0.5558 	| 0.7254   	| N/A                                                                                                                                	|
