@@ -3,18 +3,26 @@
 ## Overview of the analysis
 Working with application status for businesses Alphabet Soup's works with and using a neural network, I am trying to see if I can predict whether a project funded by Alphabet Soup will be successful based on previous data.
 
+I was given a csv that I uploaded using pandas.
+
+I used sklearn.model_selection
+- train_test_split
+- StandardScaler- OneHotEncoder
+I used tensorflow
+
+
 ## Notes
-EIN and NAME—Identification columns
-APPLICATION_TYPE—Alphabet Soup application type
-AFFILIATION—Affiliated sector of industry
-CLASSIFICATION—Government organization classification
-USE_CASE—Use case for funding
-ORGANIZATION—Organization type
-STATUS—Active status
-INCOME_AMT—Income classification
-SPECIAL_CONSIDERATIONS—Special consideration for application
-ASK_AMT—Funding amount requested
-IS_SUCCESSFUL—Was the money used effectively
+- EIN and NAME—Identification columns
+- APPLICATION_TYPE—Alphabet Soup application type
+- AFFILIATION—Affiliated sector of industry
+- CLASSIFICATION—Government organization classification
+- USE_CASE—Use case for funding
+- ORGANIZATION—Organization type
+- STATUS—Active status
+- INCOME_AMT—Income classification
+- SPECIAL_CONSIDERATIONS—Special consideration for application
+- ASK_AMT—Funding amount requested
+- IS_SUCCESSFUL—Was the money used effectively
 
 ## Results
 ### Data Preprocessing
@@ -40,7 +48,7 @@ IS_SUCCESSFUL—Was the money used effectively
 *Original*
 ![Resources/01_Model.png](Resources/01_Model.png) 
 *Optimized1*
-![Resources/02_Model.png](Resources/02_Model.png) 
+![Resources/O2_Model.png](Resources/O2_Model.png) 
 *Optimized2*
 ![Resources/03_Model.png.png](Resources/03_Model.png) 
 *Optimized3*
@@ -60,7 +68,7 @@ IS_SUCCESSFUL—Was the money used effectively
 | Optimized3    	| 0.5663 	| 0.7234   	| Filtered those out with less value_counts than 1000 for affiliation along with layers similar to Optimized 1.                      	|
 | Optimized4    	| 0.5557 	| 0.7256   	| Removed applications that had value_counts of less than 100. Also used value_counts of class with 1000 instead of 1800. Kept Original neurons. 
 
-## Summmary
+## Summary
 There is more work to be done to find the best model using the right variables. I could use the alternative data, change bins for the different variables. I could add more hidden layers and change the activation nodes around to find the best version. 
 
 Changing bins, removing data, using alternative calculations, and changing the number of layers, I could not obtain an accuracy of over 75 with the methods I used. 
