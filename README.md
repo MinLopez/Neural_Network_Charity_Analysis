@@ -53,7 +53,7 @@ I used tensorflow
 ![Resources/O3_Model.png](Resources/O3_Model.png) 
 #### *Optimized3*
 ![Resources/04_Model.png](Resources/04_Model.png) 
-####*Optimized4*
+#### *Optimized4*
 
 - Were you able to achieve the target model performance?
     No, unfortunately I was unable to find the best model that was at 75 Percent or higher. The closest I was able to get was with the last optimized model (Optimized4)
