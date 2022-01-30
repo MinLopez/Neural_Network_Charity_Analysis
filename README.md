@@ -50,7 +50,7 @@ I used tensorflow
 *Optimized1*
 ![Resources/O2_Model.png](Resources/O2_Model.png) 
 *Optimized2*
-![Resources/03_Model.png.png](Resources/03_Model.png) 
+![Resources/O3_Model.png](Resources/O3_Model.png) 
 *Optimized3*
 ![Resources/04_Model.png](Resources/04_Model.png) 
 *Optimized4*
