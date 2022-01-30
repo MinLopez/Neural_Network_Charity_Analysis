@@ -45,16 +45,15 @@ I used tensorflow
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
 ![Resources/OG_Model.png](Resources/OG_Model.png) 
-*Original*
+#### *Original*
 ![Resources/01_Model.png](Resources/01_Model.png) 
-*Optimized1*
+#### *Optimized1*
 ![Resources/O2_Model.png](Resources/O2_Model.png) 
-*Optimized2*
+#### *Optimized2*
 ![Resources/O3_Model.png](Resources/O3_Model.png) 
-*Optimized3*
+#### *Optimized3*
 ![Resources/04_Model.png](Resources/04_Model.png) 
-*Optimized4*
-                           	|
+####*Optimized4*
 
 - Were you able to achieve the target model performance?
     No, unfortunately I was unable to find the best model that was at 75 Percent or higher. The closest I was able to get was with the last optimized model (Optimized4)
