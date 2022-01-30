@@ -43,6 +43,7 @@ I used tensorflow
     - Affilations might not be as important.
 ### Compiling, Training, and Evaluating the Model
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
+    See pictures as they greatly vary.
 #### *Original*
 ![Resources/OG_Model.png](Resources/OG_Model.png) 
 
@@ -60,8 +61,11 @@ I used tensorflow
 
 - Were you able to achieve the target model performance?
     - No, unfortunately I was unable to find the best model that was at 75 Percent or higher. The closest I was able to get was with the last optimized model (Optimized4)
+
 - What steps did you take to try and increase model performance?
-See the table for details on changes and what the result was. 
+    - See the table for details on changes and what the result was. 
+
+    
 | Model         	| Loss   	| Accuracy 	| Changes                                                                                                                            	|
 |---------------	|--------	|----------	|------------------------------------------------------------------------------------------------------------------------------------	|
 | Original (D2) 	| 0.5558 	| 0.7254   	| N/A                                                                                                                                	|
